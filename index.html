@@ -10,25 +10,35 @@
 </head>
 <body>
     <main id="main-doc">
-        <section id="introduction">
-            <h1>Introduction</h1>
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
             <p>Javascript is a language used all across the web in order to script websites. A lot of features you use everyday on a website wouldn't work without javscript</p>
+            <p>For example, it would be nearly impossible to create an account and sign into it on a website such as facebook, without javascript.</p>
         </section>
-        <section id="whatyoushouldknow">
-            <h1>What you should already know</h1>
-            <p>Javascript is a language used all across the web in order to script websites. A lot of features you use everyday on a website wouldn't work without javscript</p>
+        <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <p>This guide / documentation assumes you have some working knowledge of web design basics through html and css</p>
+            <p>The javascript fundamentals however are going to be made as simply to understand as possible, for users of all levels.</p>
         </section>
-        <section id="javascriptandjava">
-            <h1>Javascript and Java</h1>
-            <p>Javascript is a language used all across the web in order to script websites. A lot of features you use everyday on a website wouldn't work without javscript</p>
+        <section id="Javascript_and_Java" class="main-section">
+            <header>Javascript and Java</header>
+            <p>Javascript and Java are both programming languages, but that's about where the similarities end.</p>
+            <p>Javascript code is NOT Java code, and the two are NOT interchangable.</p>
         </section>
-        <section id="helloworld">
-            <h1>Hello World</h1>
-            <p>Javascript is a language used all across the web in order to script websites. A lot of features you use everyday on a website wouldn't work without javscript</p>
+        <section id="Hello_World" class="main-section">
+            <header>Hello World</header>
+            <p>Here, we are going to write out first "Hello World" using javascript.</p>
+            <code id="helloworldcode" class="code">function greetMe(yourName) {
+                alert("Hello " + yourName);
+              }
+              greetMe("World");</code>
+            <p>Copy and paste that code into your scratchpad and watch your first javascript program work!</p>
         </section>
-        <section id="Variables">
-            <h1>Variables</h1>
-            <p>Javascript is a language used all across the web in order to script websites. A lot of features you use everyday on a website wouldn't work without javscript</p>
+        <section id="Variables" class="main-section">
+            <header>Variables</header>
+            <p>Variables are used to store values. You can use any letter, symbol, or number as a variable, to store any information. For example:</p>
+            <code id="Variable_Code" class="code"> var x = "y"</code>
+            <p>If you were to plug into your scratchpad now <code>alert(x)</code> you should get an alert displaying the letter y</p>
         </section>
     </main>
 </body>
