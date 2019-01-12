@@ -1,2 +1,2 @@
 # doc-page-fccc
-A documentation page for freecodecamp responsive web design certification.
+A simple documentation page for freecodecamp responsive web design certification, made using basic html, css, and jquery.
