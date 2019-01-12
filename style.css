@@ -5,12 +5,36 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: white;
     overflow-x: hidden;
     padding-top: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 0.5px;
+}
+
+.code {
+    background-color: darkgrey;
 }
 
 #main-doc {
     margin-left: 200px;
 }
 
+header {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#Navbar_Header {
+    text-align: center;
+}
+
+#Nav_Items {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-align:left;
+}

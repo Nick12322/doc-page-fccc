@@ -7,20 +7,41 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
 </head>
 
 <body>
     <nav id="navbar">
-        <header>JS documentation</header>
-        <ul>
-            <li><a class="nav-link">Introduction</a></li>
-            <li><a class="nav-link">Introduction</a></li>
-            <li><a class="nav-link">Introduction</a></li>
-            <li><a class="nav-link">Introduction</a></li>
-            <li><a class="nav-link">Introduction</a></li>
-            <li><a class="nav-link">Introduction</a></li>
-            <li><a class="nav-link">Introduction</a></li>
+        <header id="Navbar_Header">JS documentation</header>
+        <ul id="Nav_Items">
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navIntroduction">
+            <li>Introduction</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navWhatYouShouldKnow">
+            <li>What you should already know</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navJavascriptAndJava">
+            <li>Javascript and Java</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navHelloWorld">
+            <li>Hello World</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navVariables">
+            <li>Variables</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navDeclaringVariables">
+            <li>Declaring Variables</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
+            <a class="nav-link" id="navDataTypes">
+            <li>Data Types</li>
+            </a>
+            <hr style="border: 0.5px solid darkgrey"/>
         </ul>
     </nav>
     <main id="main-doc">
@@ -31,6 +52,7 @@
             <p>For example, it would be nearly impossible to create an account and sign into it on a website such as
                 facebook, without javascript.</p>
         </section>
+        <hr style="border: 0.5px solid darkgrey"/>
         <section class="main-section" id="What_you_should_already_know">
             <header>What you should already know</header>
             <p>This guide / documentation assumes you have some working knowledge of web design basics through html and
@@ -38,11 +60,13 @@
             <p>The javascript fundamentals however are going to be made as simply to understand as possible, for users
                 of all levels.</p>
         </section>
+        <hr style="border: 0.5px solid darkgrey"/>
         <section id="Javascript_and_Java" class="main-section">
             <header>Javascript and Java</header>
             <p>Javascript and Java are both programming languages, but that's about where the similarities end.</p>
             <p>Javascript code is NOT Java code, and the two are NOT interchangable.</p>
         </section>
+        <hr style="border: 0.5px solid darkgrey"/>
         <section id="Hello_World" class="main-section">
             <header>Hello World</header>
             <p>Here, we are going to write out first "Hello World" using javascript.</p>
@@ -52,6 +76,7 @@
               greetMe("World");</code>
             <p>Copy and paste that code into your scratchpad and watch your first javascript program work!</p>
         </section>
+        <hr style="border: 0.5px solid darkgrey"/>
         <section id="Variables" class="main-section">
             <header>Variables</header>
             <p>Variables are used to store values. You can use any letter, symbol, or number as a variable, to store
@@ -60,6 +85,7 @@
             <p>If you were to plug into your scratchpad now <code id="alertx_Code" class="code">alert(x)</code> you
                 should get an alert displaying the letter y</p>
         </section>
+        <hr style="border: 0.5px solid darkgrey"/>
         <section id="Declaring_Variables" class="main-section">
             <header>Declaring Variables</header>
             <p>There are three ways to declare a variable in javascript. First, the var method:</p>
@@ -73,6 +99,7 @@
             <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this
                 variant.</p>
         </section>
+        <hr style="border: 0.5px solid darkgrey"/>
         <section id="Data_Types" class="main-section">
             <header>Data Types</header>
             <p>There are seven javascript data types</p>
@@ -88,6 +115,10 @@
             </ul>
         </section>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
