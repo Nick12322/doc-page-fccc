@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,34 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="script.js"></script>
 </head>
+
 <body>
+    <nav id="navbar">
+        <header>JS documentation</header>
+        <ul>
+            <li><a class="nav-link">Introduction</a></li>
+            <li><a class="nav-link">Introduction</a></li>
+            <li><a class="nav-link">Introduction</a></li>
+            <li><a class="nav-link">Introduction</a></li>
+            <li><a class="nav-link">Introduction</a></li>
+            <li><a class="nav-link">Introduction</a></li>
+            <li><a class="nav-link">Introduction</a></li>
+        </ul>
+    </nav>
     <main id="main-doc">
         <section id="Introduction" class="main-section">
             <header>Introduction</header>
-            <p>Javascript is a language used all across the web in order to script websites. A lot of features you use everyday on a website wouldn't work without javscript</p>
-            <p>For example, it would be nearly impossible to create an account and sign into it on a website such as facebook, without javascript.</p>
+            <p>Javascript is a language used all across the web in order to script websites. A lot of features you use
+                everyday on a website wouldn't work without javscript</p>
+            <p>For example, it would be nearly impossible to create an account and sign into it on a website such as
+                facebook, without javascript.</p>
         </section>
         <section class="main-section" id="What_you_should_already_know">
             <header>What you should already know</header>
-            <p>This guide / documentation assumes you have some working knowledge of web design basics through html and css</p>
-            <p>The javascript fundamentals however are going to be made as simply to understand as possible, for users of all levels.</p>
+            <p>This guide / documentation assumes you have some working knowledge of web design basics through html and
+                css</p>
+            <p>The javascript fundamentals however are going to be made as simply to understand as possible, for users
+                of all levels.</p>
         </section>
         <section id="Javascript_and_Java" class="main-section">
             <header>Javascript and Java</header>
@@ -36,26 +54,40 @@
         </section>
         <section id="Variables" class="main-section">
             <header>Variables</header>
-            <p>Variables are used to store values. You can use any letter, symbol, or number as a variable, to store any information. For example:</p>
+            <p>Variables are used to store values. You can use any letter, symbol, or number as a variable, to store
+                any information. For example:</p>
             <code id="Variable_Code" class="code"> var x = "y"</code>
-            <p>If you were to plug into your scratchpad now <code id="alertx_Code" class="code">alert(x)</code> you should get an alert displaying the letter y</p>
+            <p>If you were to plug into your scratchpad now <code id="alertx_Code" class="code">alert(x)</code> you
+                should get an alert displaying the letter y</p>
         </section>
         <section id="Declaring_Variables" class="main-section">
             <header>Declaring Variables</header>
             <p>There are three ways to declare a variable in javascript. First, the var method:</p>
-                <code id="VarCode" class="code"> var x = 42</code>
+            <code id="VarCode" class="code"> var x = 42</code>
             <p>This can be used to declare both local and global variables.</p>
             <p>Second is the let method:</p>
-                <code id="LetCode" class="code">let x = 42</code>
+            <code id="LetCode" class="code">let x = 42</code>
             <p>This syntax can be used to declare a block scope local variable.</p>
             <p>Finally, a variable can be simply assigned a value, like so</p>
-                <code id="assignCode" class="code"> x = 42</code>
-            <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
+            <code id="assignCode" class="code"> x = 42</code>
+            <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this
+                variant.</p>
         </section>
         <section id="Data_Types" class="main-section">
             <header>Data Types</header>
-            <p>Placeholder</p>
+            <p>There are seven javascript data types</p>
+            <ul>
+                <li>Boolean - True and False</li>
+                <li>null - A special keyword denoting a null value. Javascript is case sensitive, so not the same as
+                    NULL, Null, or any other variant</li>
+                <li>undefined - A top-level property whose value is undefined</li>
+                <li>Number - 414, 423, 0, 1</li>
+                <li>String - "Hello World!"</li>
+                <li>Symbol - A data type whose instances are unique and immutable</li>
+                <li>Object</li>
+            </ul>
         </section>
     </main>
 </body>
+
 </html>
